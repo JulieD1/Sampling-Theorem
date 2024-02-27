@@ -42,5 +42,6 @@ for i, fs_i in enumerate(fs_list):
     plt.xlabel('Time')
     plt.ylabel('Voltage')
     plt.title('Reconstructed signal at fs = {} Hz'.format(fs_i))
+    plt.subplots_adjust(hspace=1) 
 
 plt.show()
